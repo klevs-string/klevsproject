@@ -1,0 +1,24 @@
+/* Center the flower container */
+.flower {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Adjust the flower wrapper positioning */
+.f-wrapper {
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for exact centering */
+}
+
+/* Adjust the second and third flower wrappers */
+.f-wrapper--2,
+.f-wrapper--3 {
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for exact centering */
+}
